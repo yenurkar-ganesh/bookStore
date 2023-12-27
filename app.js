@@ -6,7 +6,7 @@ const connectDB = require('./DB/connectToDB.js')
 
 // MIDDLEWARE
 app.use(cors());
-require("dotenv").config();
+require('dotenv').config();
 app.use(express.json());
 
 // CONNECTION TO DB 
